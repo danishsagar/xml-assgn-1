@@ -1,0 +1,31 @@
+<?xml version ="1.0" encoding="UTF-0.8"?>
+<!DOCTYPE products[
+    <!ELEMENT name (#PCDATA)>
+    <!ATTLIST name id (CDATA) "1001">
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT company (#PCDATA)>
+
+
+]>
+
+
+<products>
+    <product>
+        <name id="1001">laptop</name>
+        <price>70000</price>
+        <company>&valUE1;</company>
+    
+    </product>
+
+     <product>
+        <name id="1002">computer</name>
+        <price>50000</price>
+        <company>&valUE2;</company>
+    </product>
+
+     <product>
+        <name id="1003">lcd</name>
+        <price>20000</price>
+        <company>&valUE3;</company>
+    </product>
+</products>
